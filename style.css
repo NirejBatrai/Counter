@@ -18,5 +18,6 @@ button#increaseBtn {
     padding: 10px 20px; /* Adjust the padding to your preference */
     border-radius: 10px;
     margin: 10px;
+    cursor: pointer;
 
 }
