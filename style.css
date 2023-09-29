@@ -2,22 +2,43 @@
     display: block;
     text-align: center;
     font-size: 60px;
+    color: aliceblue;
+}
+body{
+    background-color: black;
 }
 
 .container {
     display: block;
     text-align: center;
     
+    
 }
 
 /* Increase the font size and padding for the buttons */
-button#decreaseBtn,
-button#resetBtn,
-button#increaseBtn {
+
+button#resetBtn {
     font-size: 24px; /* Adjust the font size to your preference */
     padding: 10px 20px; /* Adjust the padding to your preference */
     border-radius: 10px;
     margin: 10px;
     cursor: pointer;
+    background-color: bisque;
+    
+}
 
+button#decreaseBtn{
+     background-color: rgb(129, 37, 37);
+     font-size: 24px; /* Adjust the font size to your preference */
+     padding: 10px 20px; /* Adjust the padding to your preference */
+     border-radius: 10px;
+     cursor: pointer;
+}
+
+button#increaseBtn{
+     background-color: rgb(84, 219, 140);
+     font-size: 24px; /* Adjust the font size to your preference */
+     padding: 10px 20px; /* Adjust the padding to your preference */
+     border-radius: 10px;
+     cursor: pointer;
 }
