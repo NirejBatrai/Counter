@@ -1,0 +1,22 @@
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 60px;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    
+}
+
+/* Increase the font size and padding for the buttons */
+button#decreaseBtn,
+button#resetBtn,
+button#increaseBtn {
+    font-size: 24px; /* Adjust the font size to your preference */
+    padding: 10px 20px; /* Adjust the padding to your preference */
+    border-radius: 10px;
+    margin: 10px;
+
+}
